@@ -23,6 +23,3 @@ console.log(Math.floor(4.9));
 console.log(Math.min(4.9));
 console.log(Math.random());
 console.log(Math.random()*10)
-
-const min = 10;
-const max = 20;
