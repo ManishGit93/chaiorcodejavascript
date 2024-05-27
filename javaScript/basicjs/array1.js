@@ -25,7 +25,12 @@ const myeven = [2,4,6,8]
 const myodd = [3,5,7,9]
 
 myodd.push(myeven);
-console.log("mixnumber:",myodd)
+// console.log("mixnumber:",myodd)
+
+const mixnumber = myeven.concat(myodd);
+
+console.log(mixnumber);
+
 
 
 
