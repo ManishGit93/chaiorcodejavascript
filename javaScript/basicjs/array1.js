@@ -15,11 +15,19 @@ const newArr = myArr.join();
 // console.log(typeof newArr);
 
 const arr1 = myArr.slice(1,3);
-console.log("Slice:",arr1);
-console.log("A:",myArr);
+// console.log("Slice:",arr1);
+// console.log("A:",myArr);
 
 const arr2 = myArr.splice(1,3);
-console.log("Splice:",arr2);
-console.log("B:",myArr)
+// console.log("Splice:",arr2);
+// console.log("B:",myArr)
+const myeven = [2,4,6,8]
+const myodd = [3,5,7,9]
+
+myodd.push(myeven);
+console.log("mixnumber:",myodd)
+
+
+
 
 
